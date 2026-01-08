@@ -1,3 +1,66 @@
-body{
-    background-color: rebeccapurple;
+*{
+    margin: 0;
+    padding: 0;
+
 }
+body{
+    background-color: black;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container{
+    width:85% ;
+    margin: 0px auto;
+}
+
+
+/* header style start */
+header{
+    background: #FFFFFF;
+    max-height: 92px;
+    padding: 16px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    max-width: 139px;
+    min-height: 60px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 32px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav button{
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 12px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: #1e874a;
+}
+/* header style end */
+
