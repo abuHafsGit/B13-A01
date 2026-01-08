@@ -73,11 +73,16 @@ nav button:hover {
 
 /* hero section sytl start */
 .container-image {
-    background-image: url(/assets/hero-bg.png);
+
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 674px;
+    position: absolute;
+    z-index: -1;
 
+}
+.box{
+    position: relative;
 }
 
 .hero-sction {
